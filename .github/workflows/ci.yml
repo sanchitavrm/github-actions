@@ -5,7 +5,9 @@ name: Java CI with Gradle
 # Events (required)
 on:
   push:
-    branches: [ master ]
+    branches:
+      - master
+      - sanchitavrm-patch-1
   pull_request:
     branches: [ master ]
 
