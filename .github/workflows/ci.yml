@@ -16,6 +16,7 @@ jobs:
   build-java:
 
     runs-on: ubuntu-latest
+    environment: dev   # this line enables access to the secrets
     
     steps:
     - uses: actions/checkout@v2
@@ -33,6 +34,8 @@ jobs:
         ./gradlew build
         ls build/libs/
 
+
+# marketplace actions
     - name: Build and Push Docker Image
       uses: mr-smithers-excellent/docker-build-push@v4
       with:
