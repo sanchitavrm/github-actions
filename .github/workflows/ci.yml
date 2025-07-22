@@ -4,6 +4,12 @@
 name: Java CI with Gradle
 # Events (required)
 on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'CI'
+        required: true
+        default: 'dev'
   push:
     branches:
       - master
