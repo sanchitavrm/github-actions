@@ -18,9 +18,9 @@ env:
   
 push:
     branches:
-#      - master
+       - master
        - sanchitavrm-patch-1
-#  pull_request:
+# pull_request:
 #    branches: [ master ]
 
 # Include set of actions
