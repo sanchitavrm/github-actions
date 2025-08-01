@@ -11,7 +11,7 @@ on:
 env:
   AWS_REGION: us-east-1                     # Change to your region
   ECR_REPOSITORY: dev/github-action             # Change to your ECR repo name
-  IMAGE_TAG: latest                         # Can be dynamic (e.g., Git SHA or version)
+  IMAGE_TAG: demo-app                         # Can be dynamic (e.g., Git SHA or version)
 
   
 # pull_request:
