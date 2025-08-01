@@ -16,10 +16,10 @@ env:
   IMAGE_TAG: latest                         # Can be dynamic (e.g., Git SHA or version)
 
   
-#  push:
-#    branches:
+push:
+    branches:
 #      - master
-#      - sanchitavrm-patch-1
+       - sanchitavrm-patch-1
 #  pull_request:
 #    branches: [ master ]
 
