@@ -9,7 +9,7 @@ on:
         required: true
         default: 'dev'
 env:
-  AWS_REGION: us-east-1                     # Change to your region
+  AWS_REGION: us-east-2                     # Change to your region
   ECR_REPOSITORY: dev/github-action             # Change to your ECR repo name
   IMAGE_TAG: demo-app                         # Can be dynamic (e.g., Git SHA or version)
 
