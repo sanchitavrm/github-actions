@@ -1,6 +1,4 @@
-# This workflow will build a Java project with Gradle
-# For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-gradle
-# name - optional
+
 name: Java CI with Gradle, Push to ECR
 # Events (required)
 on:
@@ -17,9 +15,9 @@ env:
 
   
 push:
-    branches:
-       - master
-       - sanchitavrm-patch-1
+  branches:
+    - master
+    - sanchitavrm-patch-1
 # pull_request:
 #    branches: [ master ]
 
