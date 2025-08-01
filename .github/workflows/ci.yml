@@ -10,12 +10,12 @@ on:
         description: 'CI'
         required: true
         default: 'dev'
-  push:
-    branches:
-      - master
-      - sanchitavrm-patch-1
-  pull_request:
-    branches: [ master ]
+#  push:
+#    branches:
+#      - master
+#      - sanchitavrm-patch-1
+#  pull_request:
+#    branches: [ master ]
 
 # Include set of actions
 jobs:
